@@ -10,7 +10,7 @@
   "scripts": {
     "start": "node index.js",
     "pack": "webpack --config webpack.config.js",
-    "babel": "babel src -d views",
+    "babel": "babel react -d views",
     "build": "npm run pack && npm run babel",
     "server-render": "npm run build; npm start"
   },
