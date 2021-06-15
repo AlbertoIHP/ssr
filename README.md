@@ -1,21 +1,14 @@
 # React Server-Side Rendering Example
 
-Above is an example playground for you to play with React & Redux on Client and Server sides.
-Before jumping into it, make sure to [read SSR tutorial on Medium](http://bit.ly/2IQ51Xq).
+Inside SRC goes your React project. Then remember to add dependencies of your project to this local package.json.
 
-Here’s what we will build in this tutorial:
+Then run npm run server-render to build your src React code, and then run a node with express server to load bundled data
 
-![Clash of Clans app card](https://cdn-images-1.medium.com/max/1000/1*wk04sWGQkw36_XLFvPACrA.png)
 
 
 ## Setup
 ```
-$ npm run install
-$ npm run build
-$ npm run start
+$ npm install
+$ npm run server-render
 ```
 
-## Ready to become a React Pro?
-Subscribe to get your React skills blazing, immediately. 
-
-[Join the mailing list](http://eepurl.com/dpfhGn).  I won’t spam. 👍

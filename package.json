@@ -11,7 +11,8 @@
     "start": "node index.js",
     "pack": "webpack --config webpack.config.js",
     "babel": "babel src -d views",
-    "build": "npm run pack && npm run babel"
+    "build": "npm run pack && npm run babel",
+    "server-render": "npm run build; npm start"
   },
   "author": "Rohit kumar",
   "license": "CC BY 4.0",
