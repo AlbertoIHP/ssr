@@ -1,9 +1,10 @@
 # React Server-Side Rendering Example
 
-Inside SRC goes your React project. Then remember to add dependencies of your project to this local package.json.
+This projects uses webpack to bundle the main App.js file inside a React Project. This is created inside assets to be readed as public data by the client (Check webpack.config.js)
 
-Then run npm run server-render to build your src React code, and then run a node with express server to load bundled data
+Also runs a babel transpilation to allow node read the server.js file, which bassically creates a String with React code rendered to be sended to client.
 
+Finally once main file is build to assets folder, and the views folder is created by babel transpilator. With index.js is configured an minimal node + express server to allow client to get client bundle and the configured pre rendered instance of the react app STRING.
 
 
 ## Setup
